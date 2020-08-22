@@ -1,0 +1,105 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.blue {
+  color: #38b5ed;
+}
+
+.grey {
+  color: #787777;
+}
+
+label {
+  color: #38b5ed;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+h1 {
+  color: #38b5ed;
+  padding-top: 0.5em;
+}
+
+.form-group {
+  margin-bottom: 2.5em;
+}
+
+.form {
+  width: 90%;
+  text-align: left;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@media (min-width: 786px) {
+  .form {
+    width: 50%;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+.error {
+  border: 2px solid #ff6565;
+}
+
+.button {
+  background: #38b5ed;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.button:hover {
+  background: #38b5ed;
+}
+
+.error-message {
+  color: #ff6565;
+  padding: 0.5em 0.2em;
+  height: 1em;
+  position: absolute;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.label-align-left {
+  text-align: left;
+}
+
+.label-align-right {
+  text-align: right;
+}
+
+.avatar-button {
+  width: 150px;
+  height: 150px;
+  margin: 14px;
+}
+
+.white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.white:hover {
+  color: #1863ab;
+}
+
+.check-icon {
+  margin-top: 15px;
+  margin-left: 120px;
+}
+
+.forgot-button {
+  background-color: white;
+  color: #38b5ed;
+  font-size: 10pt;
+  text-decoration: none;
+}
